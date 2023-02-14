@@ -6,7 +6,7 @@ interface PassportFooterProps{
 
 export function PassportFooter({passportValidation}: PassportFooterProps){
   return(
-    <div className={clsx("max-w-[327px] w-full mx-auto my-auto p-6  rounded-3xl drop-shadow-lg shadow-black bg-white", {
+    <div className={clsx("max-w-[330px] w-full mx-auto my-auto p-6  rounded-3xl drop-shadow-lg shadow-black bg-white", {
       'rounded-t-sm bg-card-bottom': passportValidation
     })}>
           <div className="flex justify-between items-center ">
@@ -14,7 +14,7 @@ export function PassportFooter({passportValidation}: PassportFooterProps){
               <div className='grid gap-[2px]'>
                 <span>Embarque</span>
                 <div>
-                <strong className="bg-blue-700 text-white rounded-lg px-2 py-1">16:15</strong>
+                <strong className="bg-blue-700 text-white rounded-lg px-2 py-1 font-medium">16:15</strong>
                 </div>
               </div>  
               <div className='grid'>

@@ -12,7 +12,7 @@ function App() {
   }
   return (
     <main className="h-screen flex justify-center items-center bg-transparent">
-      <div className="max-w-[327px] bg-transparent">
+      <div className="max-w-[330px] bg-transparent">
         <h3 className="text-xl mb-5 text-center text-white">Cartão de embarque</h3>
         <PassportHeader passportValidation={passportValid}/>
         <Divider passportValidation={passportValid} />
